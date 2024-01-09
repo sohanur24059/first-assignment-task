@@ -1,0 +1,372 @@
+/* common style */
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+.common-color{
+    color: #F00;
+}
+/* header section style */
+header{
+    width: 1320px;
+    height: 600px;
+    background-image: url('../resources/Banner\ Image.png');
+    filter: brightness(50%);
+    margin: 50px 140px 120px 140px;
+}
+.banner{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 233px 344px 177px 344px;
+}
+/* main section style */
+ .off{
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.off-description{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+.categories{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+.new-year-pic{
+     width: 800px;
+     height: 500px;
+     margin: 0 400px;
+}
+/* Welcome to midnight party section style */
+.invitation{
+    padding-top: 120px;
+    width: 1320px;
+    height: 600px;
+    margin: 0px 140px;
+
+}
+.invitation-card{
+    background-image: url('../resources/Vectorrr.png');
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#Welcome-section{
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 900;
+    padding-top: 126px ;
+    padding-left: 126px;
+    padding-bottom: 0;
+
+}
+#description{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 126px;
+}
+#button{
+        /* padding-left: 160px; */
+    text-align: center;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 160px;
+    margin-bottom: 100px;
+
+}
+.section-column2{
+    padding-right: 140px;
+    padding-top: 60px;
+}
+/* .location section style */
+.location{
+    margin: 120px 140px 0px 140px;
+    text-align: center;
+    width: 1320px;
+    height: 400px;
+    padding: 25px;
+}
+.location h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+.button{
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    margin-top: 50px;
+}
+/* offer section style */
+.best-offer{
+    margin: 0px 140px;
+    
+}
+.upcoming-offer{
+    display: flex;
+     gap:25px;
+    justify-content: space-between;
+    
+    align-items: center;
+
+  
+}
+.offer-column1 h3{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+}
+.offer-column1 h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 0px;
+}
+.offer-column1 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 22px;
+}
+.offer-column2{
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+   
+}
+#width-set{
+    padding: 49.08px;
+}
+.offer-column3 h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 105px;
+    padding-bottom:none;
+    
+}
+.offer-column3 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+.offer-column3 img{
+    width:150px;
+    height:150px;
+}
+/* holyday sale section style */
+.section6{
+    padding-top: 120px;
+}
+.information{
+text-align: center;
+
+}
+#sale-h4{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+
+}
+.sale-heading{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom:30px;
+}
+.information p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding:0px 270px;
+    margin-bottom: 10px;
+}
+.picture-design{
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    border-radius: 16px 0px 16px 16px;
+    height: 430px;
+}
+.picture-design img{
+margin-left: 1000px;    
+}
+
+.bg-red-image{
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-position: cover;
+    width: 100%;
+    height: 220px;
+}
+#logo{
+    justify-content:;
+}
+.bg-red-image img{
+    height: 600px;
+    width: auto;
+    margin-top: -450px  ;
+}
+/* products-secton style */
+.products-secton{
+    margin: 120px 120px;
+}
+#best-gifts{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.products-description h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+.products-description p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 24px;
+
+}
+.products-pic{
+    padding:24px;
+}
+.products-pic img:hover{
+    box-shadow: 10px 12px 6px rgb(166, 194, 166);
+}
+.last-section{
+    margin:0px 140px 120px 140px;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    
+    
+}
+.last-section img{
+    width: 150px;
+    height: 150px;
+    padding-top: 80px;
+}
+.last-section h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.last-section p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.Subscribe-box{
+    padding-top: 50px;
+}
+.email{
+    border-radius: 50px 0px 0px 50px;
+    background-color: #FFF;
+    height: 45px;
+    width: 300px;
+    padding-top:15px;
+    padding-bottom: 8px;
+}
+.Subscribee{
+    position: relative;
+    left: -5px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    outline: none;
+    
+    padding-left: 50px;
+    padding-bottom:20px;
+
+ }
+input[type="submit"]{
+    padding: 24px 56px;
+    text-align:center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+/* footer section style */
+footer{
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin-top: 120px;
+}
+.contact{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 120px;
+}
+.footer-location{
+    color: #FFF;
+    padding-left: 140px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.contact a {
+    display: block;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+    padding-right: 290px;
+
+}
+hr{
+    margin: 50px 140px;
+}
+hr:hover{
+    box-shadow: 15px 20px 9px rgb(175, 37, 37);
+}
+#icon{
+    padding:0px 25px;
+    text-align: center;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+}
+.review p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 140px;
+}
+.review button{
+    color: #e10c0c;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 140px;
+    border-radius: 15px;
+}
+
+
+ 
+
